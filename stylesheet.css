@@ -1,0 +1,280 @@
+/*nav*/
+.navbar{
+	background-color: black;
+}
+.test-container {
+	display: flex;
+
+	justify-content: space-between;
+	width: 7em; 
+
+}
+.item a img {
+   height: 1.5em;
+   width: 1.5em;
+}
+.header-logo img{
+	width:15em;
+	height: 2em;
+}
+/*login*/
+.login-wrapper{
+	width: 100%;
+	height: 1.7em;
+	border-bottom: 1px solid #ccc;
+}
+.login-signup {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Trebuchet MS';
+
+}
+.login-signup a{
+	text-decoration: none;
+	color: black;
+	padding-right: .5em;
+	padding-left: .5em;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+} 
+.login-signup a:hover{
+	
+	color: #ccc;
+} 
+/*banner*/
+.banner{
+	border-bottom:1px solid #cecece;
+	background-color: #ccc;
+	
+}
+.sub-banner1{
+
+}
+.sub-banner1 img {
+	width: 100%	
+}
+.sub-banner2 img {
+	width: 60%	
+}
+.sub-banner2 h1 {
+	font-family: 'Trebuchet MS';
+}
+.sub-banner2 p {
+	margin-left: 0.5em;	
+}
+.content h1 {
+	padding-top: 1em;
+}
+/*content*/
+.about-link img {
+	width: 100%;
+	margin-bottom: 2em;
+}
+.about-link {
+	padding-top: 2em;
+	
+}
+.first-type{
+	
+}
+.post-banner a{
+	cursor: pointer;
+	
+}
+.post-banner img{
+	margin-top: 2em;	
+}
+.post-content h1{
+	font-size: 2em;
+}
+.post-content a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#alt1,#alt2 {
+ display: none;
+ position: absolute;
+}
+
+/*mobile layout*/
+@media only screen and (max-width: 500px) {
+
+.item a img{
+	display: none;	
+}	
+.navbar{
+	
+}
+.banner{
+	background-color: #fff;	
+}
+.sub-banner1 {
+	border-bottom: 1px solid #cecece;
+	display: none;
+}
+.sub-banner2 {
+	padding-top: 1em;
+}
+.sub-banner2 img {
+	width: 100%;
+}
+
+.sub-banner2 h1 {
+	font-family: 'Helvatica';
+	font-size: 2em;
+	text-align: center;
+	
+
+}
+.sub-banner2 p {
+	font-size: 1em;	
+	text-align: center;
+}
+.content h1 {
+	font-size: 2em;
+}
+.about-link img {
+	width: 50%;
+	
+}
+.about-link {
+	display: flex;
+	background-color: #cecece;
+	height: 15em;
+}
+.navbar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar-clone{
+	height: 4.1em;
+}
+}
+/*Desktop layout*/
+@media only screen and (min-width: 1600px) {
+.sub-banner2 h1 {
+	font-size: 3em;
+}
+.sub-banner2 p {
+	font-size: 1.5em;	
+}
+.sub-banner2 img {
+	width: 40%; 
+}
+.sub-banner1 img {
+	width: 70%; 
+}
+.about-link img {
+	width: 60%;
+	margin-left: 5em;
+}
+}
+/*login*/
+/* Bordered form */
+form {
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.con-login {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.cancelbtn-1 {
+    width: auto;
+    background-color: #fff; 
+    padding: 0px 0px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    color: #111;
+    margin-left: 1em;
+}
+.cancelbtn-1:hover {
+	color: #ccc;
+}
+.greeting{
+
+	font-family: 'Trebuchet MS'
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/*comment page style*/
+.main {
+	padding-top: 5em;
+	margin: auto;
+}
+.label{
+	font-size: 2em;
+	border-bottom: 1px solid #ccc;
+}
+.form-text{
+	width: 30em;
+	height: 5em;
+	border-radius: 5px;
+	resize: none;
+	padding: 0.5em;
+}
